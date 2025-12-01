@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+static/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Byte-compiled / optimized
+*.pyo
+*.pyd
+*.pdb
+
+# MyPy
+.mypy_cache/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Compiled static files
+/static_cdn/
+static_root/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Render build
+render.yaml
+
+# Node modules (if project uses frontend)
+node_modules/
+
+# Local secrets
+secrets.json
